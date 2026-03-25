@@ -8,12 +8,12 @@ const Header = () => {
       <a href="/">
         <Image src={Logo} alt="Youlander Logo" width={64} height={64} />
       </a>
-      <a
-        href="#form"
-        className="font-semibold text-lg md:inline-flex bg-[#9B5DE5] text-white font-heading px-8 py-3 rounded-lg hover:scale-105 hover:shadow-lg transition"
-      >
-        Créer mon site maintenant
-      </a>
+    <a
+  href="#form"
+  className="font-semibold text-sm md:text-lg inline-flex bg-[#9B5DE5] text-white font-heading px-4 md:px-8 py-4 md:py-3 rounded-lg hover:scale-105 hover:shadow-lg transition w-auto whitespace-nowrap"
+>
+  Créer mon site maintenant
+</a>
     </header>
   );
 };
